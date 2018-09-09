@@ -32,6 +32,10 @@ public class EnrichedWeatherEntry {
         return LocalDateTime.ofInstant(Instant.ofEpochMilli(entry.getTimestamp()), ZoneId.systemDefault());
     }
 
+    public String getDay(){
+        return LocalDateTime.ofInstant(Instant.ofEpochMilli(entry.getTimestamp()), ZoneId.systemDefault()).toLocalDate().getDayOfWeek().name();
+    }
+
     public String getCondition(){
         return entry.getCondition();
     }
