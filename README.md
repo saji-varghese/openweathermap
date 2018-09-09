@@ -15,7 +15,10 @@ http://127.0.0.1:8080/weather/day/London/2018-09-14
 **Minimum requirement to run**
 
 JDK 1.8 or later
+
 Maven 3.2+
+
+
 
 **To run** 
 
